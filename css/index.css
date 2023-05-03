@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100&family=Rubik:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+header{
+  /* border: 1px solid red; */
+  /* position: sticky; */
+  /* top: 0; */
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+}
+
+.left{
+  /* border: 1px solid green; */
+  display: flex;
+}
+
+.logo-img img{
+  width: 80px;
+  height: 80px;
+}
+
+.logo-name{
+  display: flex;
+  align-items: center;
+  color: blueviolet;
+  font-size:x-large;
+  /* border: 1px solid red; */
+  /* padding: 0px 10px; */
+}
+
+.logo-name h6{
+  font-weight:bolder;
+}
+
+nav{
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: center;
+  padding: 0px 100px;
+}
+nav ul{
+  display: flex;
+}
+nav ul li{
+  list-style: none;
+  margin: 0px 30px;
+}
+ul li a{
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+}
+
+.donation-btn{
+  /* border: 1px solid green; */
+  display: flex;
+  align-items: center;
+}
+
+.donation-btn a{
+  /* border: 1px solid blue; */
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: blueviolet;
+  color: aliceblue;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.donation-btn :hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(229, 229, 229);
+  transition-duration: 800ms;
+}
+
+nav a:hover{
+  color: blueviolet;
+  transition-duration: 500ms;
+}
+
+/* Content & Cards Section start here */
+.content{
+  /* border: 1px solid rgb(0, 191, 255); */
+  height: 130vh;
+}
+
+.content-text{
+  /* border: 1px solid rgb(0, 170, 45); */
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-text h1{
+  font-weight:600;
+  font-family: "Open Sans", sans-serif;
+}
+
+.content-text p{
+  margin-top: 20px;
+  text-align: center;
+  color: #636363;
+  line-height: 1.8;
+}
+
+.content-cards{
+  /* border: 1px solid rgb(206, 3, 165); */
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.card-image img{
+  height: 250px;
+  width: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-image{
+  /* border: 1px solid red; */
+  height: 250px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.card-content{
+  /* border: 1px solid red; */
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content h4{
+  font-size: larger;
+  font-weight: 900;
+  line-height: 2;
+}
+
+.card-content p{
+  color: #636363;
+  font-weight: 400;
+  line-height: 1.7
+}
+
+.card-content a{
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #636363;
+  font-weight: 700;
+}
+.card-content a img{
+  /* border: 1px solid red; */
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+}
+
+.card-content a img:hover{
+  position: relative;
+  left: 5px;
+  transition-duration: 200ms;
+}
+
+/* Become a Member Section Start */
+.become-member-section{
+  width: 100%;
+  height: 40vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("/img/pexels-josh-hild-2448749.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.become-member-section h3{
+  color: rgb(177, 93, 255);
+  font-weight: 500;
+  font-size: x-large;
+  font-family: "Open Sans", sans-serif;
+}
+
+.become-member-section h1{
+  margin-top: 20px;
+  width: 800px;
+  text-align: center;
+  color: white;
+}
+
+.become-member-section a{
+  text-decoration: none;
+  color: blueviolet;
+  background-color: white;
+  border-radius: 3px;
+  padding: 13px 20px;
+  margin-top: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.become-member-section a:hover{
+  background-color: blueviolet;
+  color: rgb(255, 255, 255);
+  font-family: "Open Sans", sans-serif;
+  transition-duration: 800ms;
+
+}
+
+footer{
+  width: 100%;
+  height: 50vh;
+  /* border: 3px solid red; */
+  margin-top: 50px;
+}
+
+.part1{
+  /* border: 1px solid red; */
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: blueviolet;
+}
+
+.part1 .part1-content{
+  padding-left: 30px;
+}
+
+.part1 .part1-content h3{
+  line-height: 1.8;
+  font-size: xx-large;
+  color: white;
+}
+
+.part1 .part1-content p{
+  font-size: large;
+  color: white;
+
+}
+
+.part1 #email-input{
+  position: relative;
+  left: 120px;
+  width: 400px;
+  padding: 15px 30px;
+  /* border: 2px solid red; */
+}
+
+.part1 a{
+  position: relative;
+  top: 1.5px;
+  right: 30px;
+  text-decoration: none;
+  background-color: blueviolet;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 3px;
+}
+
+.part1 a:hover{
+  background-color: black;
+  transition-duration: 800ms;
+
+}
+
+
+.part2{
+  background-color: rgb(37, 26, 46);
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  padding-left: 120px;
+}
+
+.part2 .col{
+  color: white;
+  /* border: 1px solid greenyellow; */
+  width: 300px;
+
+}
+
+.part2 .col-head h6{
+  font-weight: 600;
+  font-size: larger;
+}
+
+.col1-head img{
+  width: 30px;
+  height: 30px;
+}
+
+.col1-head{
+  display: flex;
+  /* border:  1px solid red; */
+}
+
+.col1-head h6{
+  font-weight: 600;
+  font-size: larger;
+  padding-left: 10px;
+}
+
+
+
+.col1-content{
+  margin-top: 40px;
+  font-size:small;
+
+}
+
+.col2-head{
+  /* border: 1px solid red; */
+  padding-left: 40px;
+}
+
+
+.col2-content{
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  margin-top: 20px;
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 170px;
+}
+
+.row img{
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+.col2-content-leftSide, .col2-content-rightSide{
+  line-height: 3;
+}
+
+.row a{
+  text-decoration: none;
+  color: white;
+  font-size:small;
+  display: flex;
+  align-items: center;
+}
+
+.col4-row1{
+  display: flex;
+  padding: 10px 3px;
+  /* flex-direction: column; */
+  font-size:small;
+
+}
+
+.col4-row1 i{
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+
+.col3-head{
+  /* border: 1px solid red; */
+  padding-left: 40px;
+}
+.col3-row{
+  padding: 20px 20px 15px 40px;
+  font-size:small;
+
+}
+
+.col3-row1-date-content{
+  display: flex;
+}
+
+.col3-row1-date-content i{
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+
+
+/* Part 3 Of footer */
+
+.part3{
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+  background-color: rgb(16, 12, 20);
+  color: white;
+
+}
+.part3-left{
+  /* border: 1px solid green; */
+  display: flex;
+  align-items: center;
+  margin-right: 80px;
+}
+
+.inner-right{
+  display: flex;
+  margin-left: 10px;
+}
+
+.inner-right i{
+  display: flex;
+  align-items: center;
+  margin: 0px 10px;
+}
+
+.part3-right{
+  /* border: 1px solid red; */
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  left: 20px;
+}
+#jalebi{
+  color: blueviolet;
+  padding-left: 5px;
+}
+
+.fa-brands{
+  color: #636363;
+}
+.fa-brands:hover{
+  color: blueviolet;
+}
+
+.row a:hover{
+  color: blueviolet;
+  transition-duration: 500ms;
+}
+
+.col3-row p:hover{
+  color: blueviolet;
+  transition-duration: 500ms;
+}
